@@ -10,7 +10,7 @@ import youtube from '../apis/youtube'
 
     useEffect(()=>{
         search(defaultSearchTerm);
-    },[])
+    },[defaultSearchTerm])
 
 
 

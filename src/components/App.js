@@ -2,7 +2,6 @@ import React,{useState,useEffect} from 'react'
 import SearchBar from './SearchBar'
 import VideList from './VideoList'
 import VideoDetail from './VideoDetail'
-import youtube from '../apis/youtube'
 import useVideos from '../hooks/useVideos'
 
 
